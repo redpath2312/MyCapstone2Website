@@ -17,9 +17,39 @@ body {
 #mainpages {
     background-color: #FFF2D8;   
 }
+@media (min-width: 1401px)
+{
 .mainimages {
-    height: 250px;
+    height: 275px;
 }
+}
+@media(min-width: 991px) and (max-width: 1400px)
+{
+    .mainimages {
+        height: 225px;        
+    }
+}
+
+@media(min-width: 576px) and (max-width: 990px)
+{
+    .mainimages {
+        height: 175px;
+    }
+}
+@media(min-width: 301px) and (max-width: 575px)
+{
+    .mainimages {
+        height:175px;
+      /*
+        height: 200px;
+        align-self: center;
+        min-width: 235px;
+        max-width: 500px; 
+        */
+
+    }
+}
+
 #contactme {
     background-color: #BCA37F;
     bottom: 0;
