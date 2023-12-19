@@ -53,14 +53,14 @@ body {
     height: 275px;
   }
 
-  @media (min-width: 991px) and (max-width: 1400px) {
+  @media (max-width: 1400px) {
     height: 225px;
   }
 
-  @media (min-width: 576px) and (max-width: 990px) {
+  @media (max-width: 990px) {
     height: 175px;
   }
-  @media (min-width: 301px) and (max-width: 575px) {
+  @media (max-width: 575px) {
     height: 175px;
   }
 }
