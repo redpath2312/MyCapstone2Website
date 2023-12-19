@@ -1,70 +1,81 @@
 body {
-    background-color: #FFF2D8
-} 
+  background-color: #fff2d8;
+}
 #navbar {
-    background-color: black;
+  background-color: black;
 }
 .nav-link {
-    background-color: black;
-    color: white
+  background-color: black;
+  color: white;
 }
 .active {
-    background-color: #BCA37F;
-    border-radius: 0.375rem;
+  background-color: #bca37f;
+  border-radius: 0.375rem;
 }
 #hero {
-    background-color: #113946
+  background-color: #113946;
 }
-#mainpages {
-    background-color: #FFF2D8;   
+#main-pages {
+  background-color: #fff2d8;
 }
-@media (min-width: 1401px)
-{
-.mainimages {
+/* @media (min-width: 1401px) {
+  .main-images {
     height: 275px;
+  }
 }
-}
-@media(min-width: 991px) and (max-width: 1400px)
-{
-    .mainimages {
-        height: 225px;        
-    }
+@media (min-width: 991px) and (max-width: 1400px) {
+  .main-images {
+    height: 225px;
+  }
 }
 
-@media(min-width: 576px) and (max-width: 990px)
-{
-    .mainimages {
-        height: 175px;
-    }
-}
-@media(min-width: 301px) and (max-width: 575px)
-{
-    .mainimages {
-        height:175px;
-      /*
+@media (min-width: 576px) and (max-width: 990px) {
+  .main-images {
+    height: 175px;
+  }
+} */
+
+/* @media (min-width: 301px) and (max-width: 575px) {
+  .main-images {
+    height: 175px;
+        /* 
         height: 200px;
         align-self: center;
         min-width: 235px;
         max-width: 500px; 
         */
+/* }
+} 
+*/
 
-    }
+.main-images {
+  @media (min-width: 1401px) {
+    height: 275px;
+  }
+
+  @media (min-width: 991px) and (max-width: 1400px) {
+    height: 225px;
+  }
+
+  @media (min-width: 576px) and (max-width: 990px) {
+    height: 175px;
+  }
+  @media (min-width: 301px) and (max-width: 575px) {
+    height: 175px;
+  }
 }
-
-#contactme {
-    background-color: #BCA37F;
-    color: #113946;
+#contact-me {
+  background-color: #bca37f;
+  color: #113946;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
-.imageattribution {
-    color: #113946;
-    text-align: center;
+.image-attribution {
+  color: #113946;
+  text-align: center;
 }
-.heroattribution {
-
-    text-align: center;
+.hero-attribution {
+  text-align: center;
 }
-
