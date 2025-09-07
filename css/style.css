@@ -22,6 +22,7 @@ body {
   background-color: beige;
   color: black;
   padding: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #blog-title {
   text-align: center;
@@ -29,7 +30,7 @@ body {
   padding: 30px;
 }
 h2{
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 
 /* @media (min-width: 1401px) {
