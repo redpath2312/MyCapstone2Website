@@ -32,6 +32,11 @@ body {
 h2{
   padding: 20px 0px;
 }
+.blog-section-heading{
+  text-align:center;
+  padding: 10px 0px;
+  color: #597781;
+}
 
 /* @media (min-width: 1401px) {
   .main-images {
